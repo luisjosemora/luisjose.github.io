@@ -48,6 +48,20 @@ body
 {
     background: #9BA4B5;
 }
+.menu .language-container
+{
+    position: fixed;
+    bottom: 0;
+    padding: 0px 0px 80px 20px;
+}
+.menu .language-container .switch
+{
+    color: #1E2022;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    
+}
 .main
 {
     padding: 20px 30px 0px 270px;
@@ -137,24 +151,24 @@ body
     display: inline;
     margin: 0;
 }
-.main .content_socials .linkedin
+.main .content_contact .linkedin
 {
     display: flex;
 }
-.main .content_socials .github
+.main .content_contact .github
 {
     display: flex;
 }
-.main .content_socials .instagram
+.main .content_contact .instagram
 {
     display: flex;
 }
-.main .content_socials img
+.main .content_contact img
 {
     width: 30px;
     margin: 0px 20px 20px 0px;
 }
-.main .content_socials a
+.main .content_contact a
 {
     text-decoration: none;
     color: #1E2022;
@@ -204,6 +218,20 @@ body
     .section
     {
         padding: 0px 15px 10px 15px;
+    }
+    .menu .language-container
+    {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 10px 10px 0px 0px;
+    }
+    .menu .language-container .switch
+    {
+        color: #1E2022;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transition: all 0.4s linear;    
     }
     .main
     {
@@ -271,7 +299,7 @@ body
     {
         width: 260px;
     }
-    #socials
+    #contact
     {
         padding: 50px;
     }
